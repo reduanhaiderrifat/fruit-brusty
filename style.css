@@ -1,0 +1,18 @@
+h2{
+    position: relative;
+    color: white;
+    
+}
+h2:before{
+    content: 'Exotic tastes at your doorstep';
+    top: 0;
+    left: 0;
+    width: 0;
+    position: absolute;
+    color: red;
+    overflow: hidden;
+    transition: all 3s linear;
+}
+h2:hover  h2:before{
+    width: 100%;
+}
